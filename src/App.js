@@ -27,7 +27,7 @@ function App() {
 <Navbar title ="Study Easy"  aboutus="About us " mode={mode} toggleMode= {toggleMode}/>
 <div className="container  my-2" >
 
- { /*<About/> */}
+{/* <About/> */}
 </div>
   </>
   );
