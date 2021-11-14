@@ -20,6 +20,15 @@ import Csesem6 from './components/cse/Csesem6';
 import Csesem7 from './components/cse/Csesem7';
 import Csesem5 from './components/cse/Csesem5';
 import Csesem8 from './components/cse/Csesem8';
+import Ecesem1 from './components/ece/Ecesem1';
+import Ecesem2 from './components/ece/Ecesem2';
+import Ecesem4 from './components/ece/Ecesem4';
+import Ecesem8 from './components/ece/Ecesem8';
+import Ecesem7 from './components/ece/Ecesem7';
+import Ecesem6 from './components/ece/Ecesem6';
+import Ecesem3 from './components/ece/Ecesem3';
+import Ecesem5 from './components/ece/Ecesem5';
+
 function App() {
   const [mode, setMode] = useState('light');
 
@@ -28,7 +37,7 @@ function App() {
       setMode('dark');
       document.body.style.background = '#0c403d';
     }
-    else {
+    else if (mode==='dark') {
       setMode('light');
       document.body.style.background = '#bac1cf';
     }
@@ -55,6 +64,15 @@ function App() {
             <Route exact path="/cse6" component={Csesem6}/>
             <Route exact path="/cse7" component={Csesem7}/>
             <Route exact path="/cse8" component={Csesem8}/>
+
+            <Route exact path="/ece1" component={Ecesem1}/>
+            <Route exact path="/ece2" component={Ecesem2}/>
+            <Route exact path="/ece3" component={Ecesem3}/>
+            <Route exact path="/ece4" component={Ecesem4}/>
+            <Route exact path="/ece5" component={Ecesem5}/>
+            <Route exact path="/ece6" component={Ecesem6}/>
+            <Route exact path="/ece7" component={Ecesem7}/>
+            <Route exact path="/ece8" component={Ecesem8}/>
           </Switch>
           
 
