@@ -1,3 +1,50 @@
+.modal {
+  color: black;
+}
+
+.navbar-brand {
+  color: cyan;
+}
+
+.nav-link {
+  color: cyan;
+}
+
+.dropdown-item {
+  color: cyan;
+}
+
+.dropdown-menu {
+  background-color: #0a182e;
+  color: cyan;
+}
+
+.hlink {
+  text-decoration: none;
+}
+
+#navbar {
+  background-color: #0a182e;
+}
+
+.button {
+  /* align-self: center; */
+  border-radius: 5px;
+  background-color: cyan;
+}
+footer{
+  text-align: center;
+}
+.card {
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  border-color: cyan;
+  color: cyan;
+  border-radius: 10px;
+  background-color: #0a182e;
+}
+
 .App {
   text-align: center;
 }
