@@ -5,9 +5,9 @@ export default function Home() {
   return (
 
     <div className="container">
-      <div className="card border m-3" width="18rem">
+      <div className="card border m-3" width="18rem" >
         <div className="card-body">
-          <h5 className="card-title">CSE</h5>
+          <h5 className="card-title">Cse</h5>
           <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
 
           <button type="button" className="hlink button" data-bs-toggle="modal" data-bs-target="#cseModal">
