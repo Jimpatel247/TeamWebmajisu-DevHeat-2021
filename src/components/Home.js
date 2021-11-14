@@ -23,14 +23,15 @@ export default function Home() {
                   <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div className="modal-body">
-                  <button className="hlink button"><Link to="csesem1.html">Sem 1</Link></button>
-                  <button className="hlink button"><Link to="csesem2.html">Sem 2</Link></button>
-                  <button className="hlink button"><Link to="csesem3.html">Sem 3</Link></button>
-                  <button className="hlink button"><Link to="csesem4.html">Sem 4</Link></button><br />
-                  <button className="hlink button"><Link to="csesem5.html">Sem 5</Link></button>
-                  <button className="hlink button"><Link to="csesem6.html">Sem 6</Link></button>
-                  <button className="hlink button"><Link to="csesem7.html">Sem 7</Link></button>
-                  <button className="hlink button"><Link to="csesem8.html">Sem 8</Link></button>
+                  
+                  <button className="hlink button"><a href="/csese">Sem 1</a></button>
+                  <button className="hlink button"><a href="/cse2">Sem 2</a></button>
+                  <button className="hlink button"><a href="/cse3">Sem 3</a></button>
+                  <button className="hlink button"><a href="/cse4">Sem 4</a></button><br />
+                  <button className="hlink button"><a href="/cse5">Sem 5</a></button>
+                  <button className="hlink button"><a href="/cse6">Sem 6</a></button>
+                  <button className="hlink button"><a href="/cse7">Sem 7</a></button>
+                  <button className="hlink button"><a href="/cse8">Sem 8</a></button>
                 </div>
               </div>
             </div>
