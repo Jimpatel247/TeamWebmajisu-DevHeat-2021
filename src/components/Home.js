@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
+
+
 export default function Home() {
     return (
         
@@ -23,7 +25,7 @@ export default function Home() {
                 <button type="button" className="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div className="modal-body">
-                <button className="hlink button"><Link to="csesem1.html">Sem 1</Link></button>
+                <button className="hlink button"><Link to="">Sem 1</Link></button>
                 <button className="hlink button"><Link to="csesem2.html">Sem 2</Link></button>
                 <button className="hlink button"><Link to="csesem3.html">Sem 3</Link></button>
                 <button className="hlink button"><Link to="csesem4.html">Sem 4</Link></button><br/>

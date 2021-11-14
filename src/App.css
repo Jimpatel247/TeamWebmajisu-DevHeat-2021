@@ -37,6 +37,23 @@
   background-color: #0a182e;
 }
 
+.dropdown-item {
+  color: cyan;
+}
+
+.dropdown-menu {
+  background-color: #0a182e;
+  color: cyan;
+}
+.accordion-collapse {
+  background-color: #0a182e;
+  color: cyan;
+}
+
+.accordion-button {
+  background-color: #0a182e;
+  color: cyan;
+}
 
 @keyframes App-logo-spin {
   from {
