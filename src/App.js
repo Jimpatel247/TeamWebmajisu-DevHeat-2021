@@ -1,11 +1,15 @@
 
 import './App.css';
-//import About from './components/About';
+import About from './components/About';
 import Navbar from './components/Navbar';
-
+import Home from './components/Home';
 import React, { useState } from 'react';
-
-
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  
+} from "react-router-dom";
 
 function App() {
     const [mode,setMode] = useState('light');
@@ -23,12 +27,21 @@ function App() {
     }
   return (
   <>
-   
+   <Router>
 <Navbar title ="Study Easy"  aboutus="About us " mode={mode} toggleMode= {toggleMode}/>
 <div className="container  my-2" >
-
-{/* <About/> */}
+<Switch>
+          <Route exact path="/about">
+            <About />
+          </Route>
+          
+          <Route exact path="/">
+            <Home/>
+          </Route>
+        </Switch>
+  
 </div>
+</Router>
   </>
   );
 }

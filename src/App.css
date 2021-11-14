@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+.card {
+  text-align: center;
+  display: inline-block;
+  border-color: cyan;
+  color: cyan;
+  border-radius: 10px;
+  background-color: #0a182e;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
