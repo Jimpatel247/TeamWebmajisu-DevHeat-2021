@@ -3,6 +3,7 @@ import './App.css';
 import About from './components/About';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
+
 import React, { useState } from 'react';
 import {
   BrowserRouter as Router,
@@ -11,6 +12,7 @@ import {
 
 } from "react-router-dom";
 import Footer from './components/Footer';
+
 
 function App() {
   const [mode, setMode] = useState('light');
@@ -38,10 +40,13 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
+
+            
           </Switch>
           
 
         </div>
+        
       </Router>
       <Footer/>
     </>
